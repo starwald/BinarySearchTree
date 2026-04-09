@@ -1,5 +1,6 @@
 # Compilated files
 *.class
+classes/
 
 # Compiling directories
 bin/
