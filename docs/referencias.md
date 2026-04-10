@@ -1,0 +1,2 @@
+- Java Structures, Capítulo 12
+- https://www.geeksforgeeks.org/binary-search-tree/

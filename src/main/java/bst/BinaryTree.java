@@ -7,6 +7,7 @@ public class BinaryTree<E extends Comparable<E>> {
         root = null;
     }
 
+    // BST insertion: O(log n) on average, O(n) in worst case
     public void insert(E value) {
         root = insertRec(root, value);
     }
@@ -25,6 +26,7 @@ public class BinaryTree<E extends Comparable<E>> {
         return current;
     }
 
+    // BST search: O(log n) on average, O(n) in worst case
     public E search(E value) {
         return searchRec(root, value);
     }
